@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace seesion1
+namespace OOP1
 {
 
     internal struct Point
