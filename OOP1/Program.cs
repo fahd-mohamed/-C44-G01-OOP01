@@ -76,10 +76,53 @@ namespace OOP1
             ////3. Polymorphism
             ////4. Abstraction 
             #endregion
+            Console.WriteLine("V03");
+
+            #region Apply Encapsulation User Setter Getter Method
+            ////1. Encapsulation
+            ////Class Or Struct
+            //// Separate The Data(Attributes)Defention  Fromits Use 
+            ////[Setter Geter Method - Properties]
+
+
+            ////Empiloyee
+            ////Id , Name , Salary 
+            ////1.End User Access Data Itself
+            ////2. No Data Validation 
+            ////3. Read Only Filed 
+
+            //// Appiy Encapsulation 
+            //// 1. Make All Data (Attributes) Private 
+            //// 2. Access Data Througe : 
+            //    //2.1 Setters and Getters Method 
+            //    //2,2 Properties
+
+
+            //Employee E01 = new Employee();
+            //Console.WriteLine(E01);
+
+            ////ID Read Only  Attributes
 
 
 
+            ////E01.ID = 1;
+            ////E01.Name = "Ahmed";
+            ////E01.Salary = 12000;
 
+            ////Console.WriteLine(E01.ID);
+            ////Console.WriteLine(E01.Name);
+            ////Console.WriteLine(E01.Salary);
+
+            ////E01.SetID(1);
+            ////E01.setName("Ahmed");
+            ////E01.SetSalary(12000);
+
+            ////Console.WriteLine(E01.GetID());
+            ////Console.WriteLine(E01.GetSalary());
+            ////Console.WriteLine(E01.GetName());
+
+
+            #endregion
 
         }
     }
