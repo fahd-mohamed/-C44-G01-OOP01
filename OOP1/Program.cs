@@ -60,6 +60,26 @@ namespace OOP1
 
             #endregion
 
+            Console.WriteLine("V02");
+            #region OOP Overview
+            ////OOP : Object Oriented Programming
+            //// Programming Paradigm
+            ////OOP : The  Paradigm Use The Build Any Business
+
+            ////class : Blueprint of the object
+            ////Object : Specific Instance of Class 
+
+            ////4. Pillars
+            ////===================
+            ////1. Encapsulation 
+            ////2. Inheritance
+            ////3. Polymorphism
+            ////4. Abstraction 
+            #endregion
+
+
+
+
 
         }
     }
