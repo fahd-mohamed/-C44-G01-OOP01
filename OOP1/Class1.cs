@@ -58,6 +58,13 @@ namespace OOP1
         //    return ($"{X} , {Y}");
         //} 
         #endregion
+
+
+        //V02
+
+
+
+
     }
 
 }
