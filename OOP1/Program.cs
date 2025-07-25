@@ -124,11 +124,32 @@ namespace OOP1
 
             #endregion
 
-            Employee E01 = new Employee();
-            E01.ID = 1;
-            E01.Name = "Ahmed";
-            E01.Salary = 12000;
-            Console.WriteLine(E01);
+            //Employee E01 = new Employee();
+            //E01.ID = 1;
+            //E01.Name = "Ahmed";
+            //E01.Salary = 12000;
+            //Console.WriteLine(E01);
+
+            //Indexr : Special Property
+
+            //Phonebook : 
+            Phonebook phonebook = new Phonebook(3);
+                phonebook.AddPerson("Ahmed" , 111 , 0) ;
+                phonebook.AddPerson("Ali"   , 222 , 1) ;
+                phonebook.AddPerson("Omar"  , 333 , 2) ;
+            //Console.WriteLine(phonebook.GetNumber("Ali"));
+            //phonebook.UpdateNumber("Ahmed",999);
+            //Console.WriteLine(phonebook.GetNumber("Ahmed"));
+
+            //Console.WriteLine(phonebook.GetName(222));  
+
+            Console.WriteLine("V05");
+
+            Console.WriteLine(phonebook["Ahmed"]); //long
+
+            phonebook["Ahmed "] = 999;
+
+            Console.WriteLine(phonebook["Ahmed"]); //long
         }
     }
 }
