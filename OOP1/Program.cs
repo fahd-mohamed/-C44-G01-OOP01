@@ -124,32 +124,61 @@ namespace OOP1
 
             #endregion
 
-            //Employee E01 = new Employee();
-            //E01.ID = 1;
-            //E01.Name = "Ahmed";
-            //E01.Salary = 12000;
-            //Console.WriteLine(E01);
+
+            #region Indexr
 
             //Indexr : Special Property
+            ////Phonebook : 
+            //Phonebook phonebook = new Phonebook(3);
+            //    phonebook.AddPerson("Ahmed" , 111 , 0) ;
+            //    phonebook.AddPerson("Ali"   , 222 , 1) ;
+            //    phonebook.AddPerson("Omar"  , 333 , 2) ;
+            ////Console.WriteLine(phonebook.GetNumber("Ali"));
+            ////phonebook.UpdateNumber("Ahmed",999);
+            ////Console.WriteLine(phonebook.GetNumber("Ahmed"));
 
-            //Phonebook : 
-            Phonebook phonebook = new Phonebook(3);
-                phonebook.AddPerson("Ahmed" , 111 , 0) ;
-                phonebook.AddPerson("Ali"   , 222 , 1) ;
-                phonebook.AddPerson("Omar"  , 333 , 2) ;
-            //Console.WriteLine(phonebook.GetNumber("Ali"));
-            //phonebook.UpdateNumber("Ahmed",999);
-            //Console.WriteLine(phonebook.GetNumber("Ahmed"));
+            ////Console.WriteLine(phonebook.GetName(222));  
 
-            //Console.WriteLine(phonebook.GetName(222));  
+            //Console.WriteLine("V05");
 
-            Console.WriteLine("V05");
+            //Console.WriteLine(phonebook["Ahmed"]); //long
 
-            Console.WriteLine(phonebook["Ahmed"]); //long
+            //phonebook["Ahmed "] = 999;
 
-            phonebook["Ahmed "] = 999;
+            //Console.WriteLine(phonebook["Ahmed"]); //long 
+            #endregion
 
-            Console.WriteLine(phonebook["Ahmed"]); //long
+            Console.WriteLine("V06");
+            #region Constructor
+
+            // Class : Referece
+
+            //Car : Id Model Speed
+
+            Car C01;
+            //Declare For Refernce (Pointer ) From Type 'Car'
+            //C01 : Can Refer To Object From Type 'Car' On Any Class Inheritance
+            // C01 : Refer To Null
+
+            //Console.WriteLine(C01);
+
+            // 8 Bytes Well Be Allocated At Stack For The Reference 'C01'
+            // 0  Bytes Well Be Allocated At HEAP
+            //C01 = new Car(1,200, "XYZ");
+            //New 
+            // 1. Allocate The Number Of Required Bytes At Heap For The Object
+            // 2. Initailized The Allocated Bytes With The Default 
+            //  3. Call User-Defined Constructor If Exists
+            // 4. Assign The Object  To The Reference 
+
+            //Console.WriteLine(C01.ID);
+            //Console.WriteLine(C01.Speed);
+            //Console.WriteLine(C01.Model);
+
+            Console.WriteLine(C01);
+
+            #endregion
+
         }
     }
 }
